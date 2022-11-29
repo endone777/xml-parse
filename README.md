@@ -5,6 +5,7 @@
 - cp .env.example .env
 - composer install
 - php artisan key:generate
+- php artisan:migrate
 
 Так же необходимо прописать данные для БД в файле **.env**
 Переместить дефолтный файл XML в **storage\app**
